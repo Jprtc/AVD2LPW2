@@ -14,9 +14,7 @@ export function EventCard(){
             </CardTitle>
             <img width="1000px" height="600px"src={landscapeImg} alt="placeholderLandscape"/>
             <CardIcons>
-                <button>
-            <img src={like} width="40px" height="40px"  alt ='Like'/>
-            </button>
+            <button><img src={like} width="40px" height="40px"  alt ='Like'/></button>
             <button><img src={dislike} width="40px" height="40px"  alt ='Dislike'/></button>
             <button><img src={excluir} width="40px" height="40px" alt='Excluir'/></button>
             </CardIcons>

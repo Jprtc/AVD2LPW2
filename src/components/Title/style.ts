@@ -5,7 +5,8 @@ export const Container = styled.div`
 
     div{
         background: var(--shape);
-        padding: 1.5rem 28rem;
+        padding: 1.5rem 24rem;
+        margin-right: 80px;
         border-radius: 0.25rem;
         color: var(--text-title);
         align-self: center;
