@@ -13,7 +13,7 @@ export const CardTitle = styled.div`
 export const Card = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    margin-right:88px;
+    margin-right:87px;
 
     &:hover{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -25,7 +25,13 @@ export const Card = styled.div`
 `
 
 export const CardIcons = styled.div`
-    padding:10px 8px
+    padding:5px 8px;
+    img{
+        margin-right: 20px;
+    }
+    button{
+        border:0;
+    }
 `
 
 export const CardDescription = styled.div`
